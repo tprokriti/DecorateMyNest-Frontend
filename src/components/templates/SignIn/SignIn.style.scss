@@ -1,0 +1,6 @@
+.container-main-signin {
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}

@@ -1,0 +1,29 @@
+@import "../../../index.scss";
+
+.container-main-signup {
+  // padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: 100vh;
+  background-color: $white-color;
+}
+
+.image-interior-signup {
+  width: 100%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    overflow: hidden;
+  }
+}
+
+.column2 {
+  grid-area: span 2;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $black-color;
+}

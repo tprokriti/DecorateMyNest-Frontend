@@ -1,0 +1,14 @@
+@import "../../../index.scss";
+.button-base {
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 0.3rem;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #1f1f1f;
+}
